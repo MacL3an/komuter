@@ -1,6 +1,6 @@
-<table>
+<table class="table">
     <thead>
-        <tr>
+        <tr border>
             <th>BooliId</th>
             <th>Adress</th>
             <th>kvm</th>
@@ -10,15 +10,13 @@
         </tr>
     </thead>
     <tbody>
-        <!--<tr *ngFor='#product of products'>
-            <td>
-                <img *ngIf='showImage' [src]='product.imageUrl' [title]='product.productName' [style.width.px]='imageWidth' [style.margin.px]='imageMargin'>
-            </td>
-            <td>{{ product.productName }}</td>
-            <td>{{ product.productCode | lowercase }}</td>
-            <td>{{ product.releaseDate }}</td>
-            <td>{{ product.price | currency:'USD':true }}</td>
-            <td>{{ product.starRating }}</td>
-        </tr>-->
+        <tr *ngFor='let listing of listings'>
+            <td>{{ listing.booliId }}</td>
+            <td>{{ listing.location.address.streetAddress }}</td>
+            <td>{{ listing.livingArea }}</td>
+            <td> </td>
+            <td>{{ listing.listPrice | currency:'SEK' }}</td>
+            <td> </td>
+        </tr>
     </tbody>
 </table>
