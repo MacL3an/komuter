@@ -1,0 +1,307 @@
+[
+    {
+        "booliId": 1735440,
+        "livingArea": 96.5,
+        "floor": 2,
+        "url": "http://www.booli.se/bostad/lagenhet/kristineberg/hornsbergs+strand+65/1735440",
+        "duration": null,
+        "rooms": 4,
+        "source": {
+            "url": "http://www.svenskfast.se/",
+            "type": "Broker",
+            "name": "Svensk Fastighetsf\u00f6rmedling"
+        },
+        "location": {
+            "position": {
+                "latitude": 59.34032757,
+                "longitude": 18.00688444
+            },
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms l\u00e4n"
+            },
+            "namedAreas": [
+                "Kristineberg"
+            ],
+            "address": {
+                "streetAddress": "Hornsbergs Strand 65"
+            }
+        },
+        "published": "2014-09-12 19:41:18",
+        "rent": 4385,
+        "listPrice": 6950000,
+        "objectType": "L\u00e4genhet"
+    },
+    {
+        "booliId": 1735412,
+        "livingArea": 94,
+        "floor": 2,
+        "url": "http://www.booli.se/bostad/lagenhet/kungsholmen/kristinebergsvagen+38/1735412",
+        "constructionYear": 1980,
+        "duration": null,
+        "rooms": 4,
+        "source": {
+            "url": "http://www.bjurfors.se/",
+            "type": "Broker",
+            "name": "Bjurfors"
+        },
+        "location": {
+            "position": {
+                "latitude": 59.33359,
+                "longitude": 18.0131
+            },
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms l\u00e4n"
+            },
+            "namedAreas": [
+                "Kungsholmen"
+            ],
+            "address": {
+                "streetAddress": "Kristinebergsv\u00e4gen 38"
+            }
+        },
+        "published": "2014-09-12 19:38:43",
+        "rent": 4195,
+        "listPrice": 5800000,
+        "objectType": "L\u00e4genhet"
+    },
+    {
+        "booliId": 1733709,
+        "livingArea": 102.5,
+        "floor": 3,
+        "url": "http://www.booli.se/bostad/lagenhet/kungsholmen-hornsbergs+strand/par+lagerkvists+gata+18/1733709",
+        "constructionYear": 2011,
+        "duration": null,
+        "rooms": 4,
+        "source": {
+            "url": "http://www.karlssonuddare.se/",
+            "type": "Broker",
+            "name": "Karlsson & Uddare"
+        },
+        "location": {
+            "position": {
+                "latitude": 59.33910685,
+                "longitude": 18.00738553
+            },
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms l\u00e4n"
+            },
+            "namedAreas": [
+                "Kungsholmen-Hornsbergs Strand"
+            ],
+            "address": {
+                "streetAddress": "P\u00e4r Lagerkvists gata 18"
+            }
+        },
+        "published": "2014-09-11 21:17:36",
+        "rent": 3669,
+        "listPrice": 6150000,
+        "objectType": "L\u00e4genhet"
+    },
+    {
+        "booliId": 1730233,
+        "livingArea": 91.5,
+        "floor": 2,
+        "url": "http://www.booli.se/bostad/lagenhet/kungsholmen/franzengatan+77/1730233",
+        "constructionYear": 2014,
+        "duration": null,
+        "rooms": 4,
+        "source": {
+            "url": "http://www.fastighetsbyran.se/",
+            "type": "Broker",
+            "name": "Fastighetsbyr\u00e5n"
+        },
+        "rent": 4625,
+        "location": {
+            "position": {
+                "latitude": 59.33856894,
+                "longitude": 18.00520623
+            },
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms l\u00e4n"
+            },
+            "namedAreas": [
+                "Kungsholmen"
+            ],
+            "address": {
+                "streetAddress": "Franz\u00e9ngatan 77"
+            }
+        },
+        "published": "2014-09-05 20:29:45",
+        "isNewConstruction": 1,
+        "listPrice": 5500000,
+        "objectType": "L\u00e4genhet"
+    },
+    {
+        "booliId": 1448511,
+        "livingArea": 94,
+        "floor": 2,
+        "url": "http://www.booli.se/bostad/lagenhet/kristineberg/nordenflychtsvagen+67/1448511",
+        "duration": null,
+        "rooms": 4,
+        "source": {
+            "url": "http://www.svenskfast.se/",
+            "type": "Broker",
+            "name": "Svensk Fastighetsf\u00f6rmedling"
+        },
+        "location": {
+            "position": {
+                "latitude": 59.33864663,
+                "longitude": 18.00911352
+            },
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms l\u00e4n"
+            },
+            "namedAreas": [
+                "Kristineberg"
+            ],
+            "address": {
+                "streetAddress": "Nordenflychtsv\u00e4gen 67"
+            }
+        },
+        "published": "2014-09-05 16:45:35",
+        "rent": 5220,
+        "listPrice": 5200000,
+        "objectType": "L\u00e4genhet"
+    },
+    {
+        "booliId": 1729578,
+        "livingArea": 88,
+        "floor": 4,
+        "url": "http://www.booli.se/bostad/lagenhet/kungsholmen/par+lagerkvists+gata+4/1729578",
+        "constructionYear": 2007,
+        "duration": null,
+        "rooms": 4,
+        "source": {
+            "url": "http://www.visionfastighetsmakleri.se/",
+            "type": "Broker",
+            "name": "Vision Fastighetsm\u00e4kleri AB"
+        },
+        "location": {
+            "position": {
+                "latitude": 59.3384857,
+                "longitude": 18.00854061
+            },
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms l\u00e4n"
+            },
+            "namedAreas": [
+                "Kungsholmen"
+            ],
+            "address": {
+                "streetAddress": "P\u00e4r Lagerkvists gata 4"
+            }
+        },
+        "published": "2014-09-05 14:51:31",
+        "rent": 4988,
+        "listPrice": 4795000,
+        "objectType": "L\u00e4genhet"
+    },
+    {
+        "booliId": 1727312,
+        "livingArea": 111,
+        "floor": 2,
+        "url": "http://www.booli.se/bostad/lagenhet/kristineberg/hornsbergs+strand+59/1727312",
+        "constructionYear": 2011,
+        "duration": null,
+        "rooms": 4,
+        "source": {
+            "url": "http://www.brspec.se/",
+            "type": "Broker",
+            "name": "Bostadsr\u00e4ttsspecialisten"
+        },
+        "location": {
+            "position": {
+                "latitude": 59.34036709,
+                "longitude": 18.00720341
+            },
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms l\u00e4n"
+            },
+            "namedAreas": [
+                "Kristineberg"
+            ],
+            "address": {
+                "streetAddress": "Hornsbergs Strand 59"
+            }
+        },
+        "published": "2014-09-03 10:38:13",
+        "rent": 5021,
+        "listPrice": 7695000,
+        "objectType": "L\u00e4genhet"
+    },
+    {
+        "booliId": 1725998,
+        "livingArea": 99,
+        "floor": 7,
+        "url": "http://www.booli.se/bostad/lagenhet/kungsholmen/lindhagensgatan+139/1725998",
+        "constructionYear": 2014,
+        "duration": null,
+        "rooms": 4,
+        "source": {
+            "url": "http://www.erikolsson.se/",
+            "type": "Broker",
+            "name": "Erik Olsson Fastighetsf\u00f6rmedling"
+        },
+        "location": {
+            "position": {
+                "latitude": 59.33859005,
+                "longitude": 18.00593734
+            },
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms l\u00e4n"
+            },
+            "namedAreas": [
+                "Kungsholmen"
+            ],
+            "address": {
+                "streetAddress": "Lindhagensgatan 139"
+            }
+        },
+        "published": "2014-09-02 13:55:08",
+        "rent": 4987,
+        "listPrice": 6395000,
+        "objectType": "L\u00e4genhet"
+    },
+    {
+        "booliId": 1725881,
+        "livingArea": 98.5,
+        "floor": 2,
+        "url": "http://www.booli.se/bostad/lagenhet/kristineberg/lindhagensgatan+135/1725881",
+        "duration": null,
+        "rooms": 4,
+        "source": {
+            "url": "http://www.svenskfast.se/",
+            "type": "Broker",
+            "name": "Svensk Fastighetsf\u00f6rmedling"
+        },
+        "rent": 4938,
+        "location": {
+            "position": {
+                "latitude": 59.33858281,
+                "longitude": 18.00598055
+            },
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms l\u00e4n"
+            },
+            "namedAreas": [
+                "Kristineberg"
+            ],
+            "address": {
+                "streetAddress": "Lindhagensgatan 135"
+            }
+        },
+        "published": "2014-09-02 10:33:18",
+        "isNewConstruction": 1,
+        "listPrice": 5900000,
+        "objectType": "L\u00e4genhet"
+    }
+]
