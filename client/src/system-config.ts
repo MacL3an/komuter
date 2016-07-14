@@ -48,9 +48,10 @@ declare var System: any;
 // Apply the CLI SystemJS configuration.
 System.config({
   map: {
-    '@angular': 'vendor/@angular',
-    'rxjs': 'vendor/rxjs',
-    'main': 'main.js'
+      'app': 'client/app', // 'dist',
+      '@angular': 'client/vendor/@angular',
+      'rxjs': 'client/vendor/rxjs',
+      'main': 'client/main.js'
   },
   packages: cliSystemConfigPackages
 });

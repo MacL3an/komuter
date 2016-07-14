@@ -1,15 +1,15 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
+client/dist
+client/tmp
 
 # dependencies
-/node_modules
-/bower_components
+client/node_modules
+client/bower_components
 
 # IDEs and editors
-/.idea
+client/.idea
 .project
 .classpath
 *.launch
@@ -22,11 +22,11 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
-/typings
+client/typings
 
 # e2e
-/e2e/*.js
-/e2e/*.map
+client/e2e/*.js
+client/e2e/*.map
 
 #System Files
 .DS_Store
