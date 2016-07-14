@@ -303,5 +303,39 @@
         "isNewConstruction": 1,
         "listPrice": 5900000,
         "objectType": "L\u00e4genhet"
+    },
+    {
+        "booliId": 1573154,
+        "listPrice": 1795000,
+        "published": "2014-01-10 01:06:04",
+        "location": {
+            "namedAreas": [
+                "Kungsholmstorg"
+            ],
+            "region": {
+                "municipalityName": "Stockholm",
+                "countyName": "Stockholms län"
+            },
+            "address": {
+                "streetAddress": "Garvargatan 22"
+            },
+            "position": {
+                "latitude": 59.32857809,
+                "longitude": 18.04141032
+            }
+        },
+        "objectType": "Lägenhet",
+        "source": {
+            "name": "Bostadsrättsspecialisten",
+            "url": "http://www.brspec.se/", 
+            "type": "Broker"
+        },
+        "rooms": 1,
+        "livingArea": 20,
+        "rent": 1188,
+        "floor": 5,
+        "constructionYear": 1931,
+        "url": "https://www.booli.se/bostad/lagenhet/kungsholmstorg/garvargatan+22/1573154", 
+        "pageviews": 59
     }
 ]
