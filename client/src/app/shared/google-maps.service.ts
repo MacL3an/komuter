@@ -2,18 +2,16 @@ import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
-import { IRealty } from './realty';
-
 @Injectable()
-export class RealtyListingsService {
-    private _listingsUrl = 'app/realty/dummydata.json';
-    // private _listingsUrl = '/api/listings'
+export class GoogleMapsService {
+    // private _listingsUrl = 'app/realty/dummydata.json';
+    private _listingsUrl = '/api/duration'
 
     constructor(private _http: Http) { }
 
-    getListings(): Observable<IRealty[]> {
+    getListings(): Observable<number> {
         return this._http.get(this._listingsUrl)
-            .map((response: Response) => <IRealty[]>response.json().listings)
+            .map((response: Response) => <number>response.json())
             //  .do(data => console.log('All: ' + JSON.stringify(data)))
             .catch(this.handleError);
     }

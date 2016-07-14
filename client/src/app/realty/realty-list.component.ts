@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IRealty } from './realty';
 import { RealtyListingsService } from './realty-listings.service';
+import { GoogleMapsService } from '../shared/google-maps.service';
 
 @Component({
     selector: 'realty-list',
@@ -12,7 +13,8 @@ export class RealtyListComponent {
     listings: IRealty[];
     errorMessage: string;
 
-    constructor(private _listingsService: RealtyListingsService) {        
+    constructor(private _listingsService: RealtyListingsService, 
+                private _durationService: GoogleMapsService) {        
     }
 
     ngOnInit(): void {

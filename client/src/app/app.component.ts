@@ -3,6 +3,7 @@ import { HTTP_PROVIDERS } from '@angular/http';
 import 'rxjs/Rx';   // Load all features
 import { RealtyListComponent } from './realty/realty-list.component';
 import { RealtyListingsService } from './realty/realty-listings.service';
+import { GoogleMapsService } from './shared/google-maps.service';
 
 @Component({
   moduleId: module.id,
@@ -10,7 +11,7 @@ import { RealtyListingsService } from './realty/realty-listings.service';
   templateUrl: 'app.component.html',
   directives: [RealtyListComponent],
   styleUrls: ['app.component.css'],
-  providers: [RealtyListingsService, HTTP_PROVIDERS]
+  providers: [RealtyListingsService, GoogleMapsService, HTTP_PROVIDERS]
 })
 export class AppComponent {
   title = 'Komuter';

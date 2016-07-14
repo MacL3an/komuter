@@ -1,7 +1,7 @@
 <table class="table">
     <thead>
         <tr border>
-            <th>BooliId</th>
+            <th>Booli Id</th>
             <th>Adress</th>
             <th>kvm</th>
             <th>Rum</th>
@@ -14,7 +14,7 @@
             <td>{{ listing.booliId }}</td>
             <td>{{ listing.location.address.streetAddress }}</td>
             <td>{{ listing.livingArea }}</td>
-            <td> </td>
+            <td>{{ listing.rooms }}</td>
             <td>{{ listing.listPrice | currency:'SEK' }}</td>
             <td> </td>
         </tr>

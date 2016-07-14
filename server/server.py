@@ -2,6 +2,8 @@
 import os.path
 from flask import Flask, send_file, send_from_directory, jsonify
 import BooliGetter
+import GoogleMapsGetter
+import datetime
 
 BASE_URL = os.path.abspath(os.path.dirname(__file__))
 print BASE_URL
@@ -29,6 +31,11 @@ def send_app(path):
 def get_listings():
    listings = BooliGetter.QueryBooli();
    return jsonify({'listings': listings})
+
+@app.route('/api/duration', methods = ['GET'])
+def get_duration():
+   duration = GoogleMapsGetter.GetDuration("Fyrisgrand 13, Bagarmossen", "Sveavagen 42, Stockholm", datetime.datetime(2016,8,1,8,0));
+   return jsonify({'duration': duration})
 
 if __name__ == "__main__":
     app.run()
