@@ -1,6 +1,7 @@
 #TESTING
 import os.path
-from flask import Flask, send_file, send_from_directory
+from flask import Flask, send_file, send_from_directory, jsonify
+import BooliGetter
 
 BASE_URL = os.path.abspath(os.path.dirname(__file__))
 print BASE_URL
@@ -23,6 +24,11 @@ def send_client(path):
 @app.route('/app/<path:path>')
 def send_app(path):
     return send_from_directory(APP_FOLDER, path)
+
+@app.route('/api/listings', methods = ['GET'])
+def get_listings():
+   listings = BooliGetter.QueryBooli();
+   return jsonify({'listings': listings})
 
 if __name__ == "__main__":
     app.run()

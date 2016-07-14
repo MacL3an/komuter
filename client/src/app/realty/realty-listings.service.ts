@@ -6,14 +6,15 @@ import { IRealty } from './realty';
 
 @Injectable()
 export class RealtyListingsService {
-    private _listingsUrl = 'app/realty/dummydata.json';
+    // private _listingsUrl = 'app/realty/dummydata.json';
+    private _listingsUrl = '/api/listings'
 
     constructor(private _http: Http) { }
 
     getListings(): Observable<IRealty[]> {
         return this._http.get(this._listingsUrl)
-            .map((response: Response) => <IRealty[]>response.json())
-            .do(data => console.log('All: ' + JSON.stringify(data)))
+            .map((response: Response) => <IRealty[]>response.json().listings)
+             .do(data => console.log('All: ' + JSON.stringify(data)))
             .catch(this.handleError);
     }
 
