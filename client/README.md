@@ -1,5 +1,11 @@
-# Komuter
 
+# Debugging
+To start back-end, navigate to server-folder and type 'python server.py'.
+To build front-end, nagivate to client-folder and type 'ng build'
+Now navigate to localhost:5000
+Dont forget you might need to do a hard reload...
+
+# Komuter (auto generated)
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.9.
 
 ## Development server

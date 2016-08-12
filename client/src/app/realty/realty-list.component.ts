@@ -20,7 +20,10 @@ export class RealtyListComponent {
     ngOnInit(): void {
         this._listingsService.getListings()
             .subscribe(
-            listings => this.listings = listings,
+            listings => {
+                this.listings = listings;
+                this.listings.forEach(listing => listing["duration"] = 30) ;               
+            },
             error => this.errorMessage = <any>error);
     }
 }
